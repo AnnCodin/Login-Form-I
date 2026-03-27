@@ -37,6 +37,9 @@ form {
   position: relative;
   margin-top: 15px;
 }
+::placeholder {
+  color: #3a7561;
+}
 .input_box input {
   height: 100%;
   width: 100%;
@@ -65,11 +68,11 @@ form {
 }
 .checkbox span {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
 }
 .forgot a {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   font-style: italic;
 }
@@ -77,8 +80,7 @@ form {
   color: #3de6af;
 }
 .icon {
-  color: #3de6af;
-  /* position: absolute; */
+  color: #3a7561;
   padding-left: 20px;
   transform: translateY(-200%);
 }
